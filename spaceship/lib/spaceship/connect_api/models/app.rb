@@ -17,7 +17,7 @@ module Spaceship
       attr_accessor :available_in_new_territories
       attr_accessor :content_rights_declaration
       attr_accessor :app_store_versions
-      attr_accessor :prices
+      # attr_accessor :prices
 
       # Only available with Apple ID auth
       attr_accessor :distribution_type
