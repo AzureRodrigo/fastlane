@@ -19,10 +19,11 @@ config.delete('Lint/IsStringUsage')
 File.write("#{lib}/fastlane/plugins/template/.rubocop.yml", YAML.dump(config))
 
 Gem::Specification.new do |spec|
-  spec.name          = "fastlane"
+  spec.name          = "fastlane-merca"
   spec.version       = Fastlane::VERSION
   # list of authors is regenerated and resorted on each release
-  spec.authors       = ["Roger Oba",
+  spec.authors       = ["Rodrigo Pimentel",
+                        "Roger Oba",
                         "Manish Rathi",
                         "Helmut Januschka",
                         "Stefan Natchev",
